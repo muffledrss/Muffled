@@ -70,7 +70,10 @@
   transform: translate(-50%, -50%);
 }
 body {
-  background-color: black;
+  background-image: url("muffledbg1.jpg");
+}
+.black-layer {
+  background-color: rgba(0, 0, 0, 0.74);
 }
 #play{
   background-color: orangered;
@@ -82,4 +85,21 @@ body {
 .modal-heading {
   color: white;
 }
+.button-container {
+  /* background-image: url("muffledbg.jpg");
 
+   */
+  background-color: black; 
+  width: 50vw;
+  height: 70vh;
+  position:absolute;
+  top: 18%;
+  left: 25%;
+}
+h1 {
+  color: rgb(164, 226, 226);
+  font-size: 70px;
+  text-align: center;
+  padding-top: 1vh;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
