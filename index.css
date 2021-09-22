@@ -63,11 +63,7 @@
 }
 .btn-play {
   margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  
 }
 body {
   background-image: url("muffledbg1.jpg");
@@ -90,11 +86,9 @@ body {
 
    */
   background-color: black; 
-  width: 50vw;
-  height: 70vh;
-  position:absolute;
-  top: 18%;
-  left: 25%;
+  text-align: center;
+  padding: 150px;
+  padding-bottom: 200px;
 }
 h1 {
   color: rgb(164, 226, 226);
@@ -102,4 +96,12 @@ h1 {
   text-align: center;
   padding-top: 1vh;
   font-family:'Arial Narrow Bold', sans-serif;
+}
+.leader-board {
+  border-radius: 50px;
+  background-image: linear-gradient(to right, teal, orangered);
+  padding:5px;
+  color: white;
+  text-align: center;
+  font-size: large;
 }

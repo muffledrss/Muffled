@@ -20,13 +20,20 @@
     <div class="black-layer">
       <h1><i class="fa fa-headphones" style="color:orangered"></i> MUFFLED</h1>
     </div>
-    <div class="button-container">
+    <div class="container button-container">
       <button type="button" class="btn btn-play" data-toggle="modal" data-target="#exampleModalCenter">
         <i class="fa fa-play-circle"style="font-size:120px;color:teal;"></i>
         <div id="play">PLAY</div>
       </button>
     </div>
-  
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col-md-2 offset-md-9 offset-3 leader-board">
+          Leader Board <i class="fa fa-trophy"></i>
+        </div>
+      </div>
+    </div>
+    
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -42,7 +49,7 @@
             <form>
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Player's name</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nick name">
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nick name">
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Genre</label>
@@ -55,24 +62,44 @@
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlSelect2">Example multiple select</label>
-                  <select multiple class="form-control" id="exampleFormControlSelect2">
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>5</option>
+                  <label for="exampleFormControlSelect2">Language</label>
+                  <select class="form-control" id="exampleFormControlSelect2">
+                    <option>Hindi</option>
+                    <option>Telugu</option>
+                    <option>English</option>
+                    <option>kannada</option>
+                    <option>Tamil</option>
+                    <option>Malyalam</option>
+                    <option>Korean</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label for="exampleFormControlTextarea1">Example textarea</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <label for="exampleFormControlSelect3">Year</label>
+                  <select class="form-control" id="exampleFormControlSelect3">
+                    <option>2005</option>
+                    <option>2006</option> 
+                    <option>2007</option> 
+                    <option>2008</option> 
+                    <option>2009</option> 
+                    <option>2010</option> 
+                    <option>2011</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+                    <option>2015</option>
+                    <option>2016</option>
+                    <option>2017</option>
+                    <option>2018</option>
+                    <option>2019</option>
+                    <option>2020</option>
+                    <option>2021</option>
+                  </select>
                 </div>
               </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn close-btn" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-orange">Save changes</button>
+          <button type="button" class="btn btn-orange"><a href="gamepage.html" style="text-decoration: none; color: white;">DONE</a></button>
         </div>
       </div>
     </div>
